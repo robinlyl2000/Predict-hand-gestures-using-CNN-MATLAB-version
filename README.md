@@ -29,7 +29,7 @@
     * 下圖為隨意取六種手勢各一筆訊號出來，並將其視覺化
     <p align="center"><img src="README_image/CxCOe0A.png"/></p>
 5. 最後將資料整理成適合丟入 CNN model 的模式 : 
-    * 利用 `train_test_split()` 將資料切割成 `X_train`、`X_test`、`Y_train` 與 `Y_test` (切割比例為 train = 80%、test = 20%)
+    * 利用 ` splitEachLabel()` 將資料切割成 `X_train`、`X_test`、`Y_train` 與 `Y_test` (切割比例為 train = 80%、test = 20%)
     * 再對 `Y_train` 與 `Y_test` 做 One-hot encoding
 ## 建立 & 訓練 CNN Model
 * CNN 結構如下 : 
